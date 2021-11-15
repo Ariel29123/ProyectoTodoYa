@@ -5,8 +5,10 @@ function Buscador(props) {
     
     return (
      
-         <div>
-          
+         <div class="conteinerbuscador">
+          <ul>
+            <li>Buscador</li>
+          </ul>
           
            
          </div>

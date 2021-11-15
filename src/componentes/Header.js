@@ -1,6 +1,9 @@
 import React, { Component } from "react";
-import Barra from './Barra';
-import Barra from './Buscador';
+import Carrito from './Carrito';
+import Buscador from './Buscador';
+import Login from "./Login";
+
+
 function Header(props) {
     
       return (
@@ -8,7 +11,8 @@ function Header(props) {
            <div>
              <h1>TodoYa</h1>
              <Carrito />
-             <Barra />
+             <Buscador />
+             <Login />
            </div>
         </header>
     )

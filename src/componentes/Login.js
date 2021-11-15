@@ -1,13 +1,13 @@
 import React, { Component } from "react";
 
 
-function Carrito(props) {
+function Login(props) {
     
     return (
      
-         <div class="conteinercarrito">
+         <div class="conteinerlogin">
            <ul>
-             <li>Carrito</li>
+             <li>Login</li>
            </ul>
 
          </div>
@@ -15,4 +15,4 @@ function Carrito(props) {
   )
 }
 
-export default Carrito;
+export default Login;
